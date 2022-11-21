@@ -2,7 +2,7 @@ name: Release
 
 on:
   push:
-    # branches: [for debug]
+    branches: [feat/1.9]
     tags:
       - 'v*.*.*'
 
